@@ -3,10 +3,10 @@ Module: mathematics.py
 Description: This module contains mathematical functions for various operations.
 """
 
-from typing import List
+from typing import List, Union
 
 
-def sum_array(array: List[int, float]) -> int:
+def sum_array(array: List[Union[int, float]]) -> int:
     """
     Function to sum an array of integers or floats.
 
