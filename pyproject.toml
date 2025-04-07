@@ -1,0 +1,23 @@
+[project]
+name = "otus-source-code-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.11"
+dependencies = [
+    "black>=25.1.0",
+    "ipykernel>=6.29.5",
+    "isort>=6.0.1",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pre-commit>=4.2.0",
+    "pyarrow>=19.0.1",
+    "pylint>=3.3.6",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "ruff>=0.11.4",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
