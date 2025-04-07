@@ -21,8 +21,7 @@ from src.mathematics import sum_array
     ],
 )
 def test_sum_array(
-    input_array: List[Union[int, float]], 
-    expected_output: Union[int, float]
+    input_array: List[Union[int, float]], expected_output: Union[int, float]
 ) -> None:
     """
     Test the sum_array function with various inputs.
